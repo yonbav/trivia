@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="CheckStyle-IDEA-Module">
+    <option name="configuration">
+      <map />
+    </option>
+  </component>
   <component name="EclipseModuleManager">
     <varelement var="file://$M2_REPO$/org/easytesting/fest-assert-core/2.0M8/fest-assert-core-2.0M8.jar" value="M2_REPO/org/easytesting/fest-assert-core/2.0M8/fest-assert-core-2.0M8.jar" />
     <varelement var="file://$M2_REPO$/org/easytesting/fest-util/1.2.3/fest-util-1.2.3.jar" value="M2_REPO/org/easytesting/fest-util/1.2.3/fest-util-1.2.3.jar" />
     <varelement var="file://$M2_REPO$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar" value="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar" />
-    <varelement var="file://$M2_REPO$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar" kind="src:" value="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar" value="src:M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar" />
     <varelement var="file://$M2_REPO$/junit/junit/4.10/junit-4.10.jar" value="M2_REPO/junit/junit/4.10/junit-4.10.jar" />
     <varelement var="file://$M2_REPO$/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar" value="M2_REPO/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar" />
     <src_description expected_position="0">
@@ -13,7 +18,28 @@
       <src_folder value="file://$MODULE_DIR$/src/main/java" expected_position="2" />
     </src_description>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 14" allPlatforms="JVM [14]" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="jvmTarget" value="14" />
+          <option name="languageVersion" value="1.4" />
+          <option name="apiVersion" value="1.4" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_14_PREVIEW">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -22,6 +48,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="fest-assert-core-2.0M8.jar">
@@ -70,13 +97,18 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
-    <orderEntry type="library" name="Maven: junit:junit:4.10" level="project" />
-    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
-    <orderEntry type="library" name="Maven: org.mockito:mockito-all:1.9.0" level="project" />
-    <orderEntry type="library" name="Maven: org.easytesting:fest-assert-core:2.0M8" level="project" />
-    <orderEntry type="library" name="Maven: org.easytesting:fest-util:1.2.3" level="project" />
     <orderEntry type="library" name="Maven: com.github.approvals:ApprovalTests:0.13" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:4.8.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.30-M1" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.4.30-M1" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.30-M1" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.30-M1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-test-junit:1.4.30-M1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.30-M1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-test:1.4.30-M1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-test-common:1.4.30-M1" level="project" />
   </component>
   <component name="org.twodividedbyzero.idea.findbugs">
     <option name="_basePreferences">
